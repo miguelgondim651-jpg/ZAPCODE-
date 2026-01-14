@@ -2,20 +2,21 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>ZAPCODE</title>
+  <title>ZapCode</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>ZAPCODE</h1>
+  <div class="app">
+    <div class="editor">
+      <textarea id="htmlCode" placeholder="HTML"></textarea>
+      <textarea id="cssCode" placeholder="CSS"></textarea>
+      <textarea id="jsCode" placeholder="JavaScript"></textarea>
+    </div>
 
-<textarea id="editor" placeholder="Escreva seu código HTML aqui..."></textarea>
+    <iframe id="preview"></iframe>
+  </div>
 
-<br>
-<button onclick="executar()">Executar</button>
-
-<iframe id="preview"></iframe>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
