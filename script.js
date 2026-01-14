@@ -1,5 +1,5 @@
-function executar() {
-  const codigo = document.getElementById("editor").value;
-  const iframe = document.getElementById("preview");
-  iframe.srcdoc = codigo;
-}
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", () => {
+  alert("🚀 ZAPCODE está funcionando!");
+});
